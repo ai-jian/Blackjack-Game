@@ -1,0 +1,58 @@
+body,
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: radial-gradient(rgba(38, 155, 5, 0.797), rgb(8, 52, 8));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  text-transform: capitalize;
+  color: wheat;
+  font-size: 2rem;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 2.5em;
+}
+
+#message {
+  text-transform: none;
+  font-style: italic;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 20%;
+  gap: 1rem;
+}
+
+button {
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 2rem;
+  color: rgba(38, 155, 5, 0.797);
+  background-color: goldenrod;
+  border-radius: 7px;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  background-color: orange;
+}
